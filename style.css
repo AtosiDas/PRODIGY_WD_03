@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #711DB0;
+}
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    display: none;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+h1{
+    color: #FFA732;
+}
+
+.message {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #FFA732;
+    font-size: 70px;
+}
+
+.restart-button {
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 355px;
+    border-radius: 5px;
+    background-color: #C21292;
+    height: 50px;
+    width: 100px;
+    border: 0;
+    color: #FFA732;
+    font-size: 20px;
+}
+.restart-button:hover {
+    box-shadow: 10px 10px 5px #EF4040;
+    height: 60px;
+    width: 110px;
+    color: black;
+}
+.btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: #C21292;
+    /* height: 50px;
+    width: 100px; */
+    border: 0;
+    color: #FFA732;
+    font-size: 20px;
+}
+.btn:hover {
+    box-shadow: 10px 10px 5px #EF4040;
+    color: black;
+}
+.hide {
+    display: none;
+}
