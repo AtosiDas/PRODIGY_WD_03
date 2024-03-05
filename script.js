@@ -24,11 +24,15 @@ ai.addEventListener("click",()=>{
     turn = false;
     board.style.display="grid";
     restartButton.classList.remove("hide");
+    ai.style.display = "none";
+    human.style.display = "none";
 });
 human.addEventListener("click", () => {
     turn = true;
     board.style.display="grid";
     restartButton.classList.remove("hide");
+    ai.style.display = "none";
+    human.style.display = "none";
 });
 const handleCellClick = (e) => {
     const cell = e.target;
@@ -112,6 +116,8 @@ const restartGame = () => {
     }
     board.style.display = "none";
     restartButton.classList.add("hide");
+    ai.style.display = "inline-block";
+    human.style.display = "inline-block";
 };
 
 board.addEventListener('click', handleCellClick);
