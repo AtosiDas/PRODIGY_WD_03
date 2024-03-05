@@ -1,7 +1,7 @@
-## This is my portfolio.
-I upload my portfolio on Netlify.
+## This is Tic-Tac-Toe game.
+I upload this game on Netlify.
 You can check this using the link https://tic-tac-toe-atosi.netlify.app/
 
 Thank you... 
 
-## If you like my portfolio, please give a STAR. 
+## If you like the game, please give a STAR. 
