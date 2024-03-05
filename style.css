@@ -81,3 +81,9 @@ h1{
 .hide {
     display: none;
 }
+
+@media screen and (max-width: 560px){
+    .message{
+        font-size: 35px;
+    }
+}
